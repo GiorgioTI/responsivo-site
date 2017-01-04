@@ -1,0 +1,125 @@
+body{
+    background:  #eeeeee;
+}
+.wrap{
+    margin: auto;
+    width: 960px;
+}
+.header{
+    width: 100%;
+    background: #0097a7;
+}
+.header .logo{
+    display: inline-block;
+    padding: 16px 0;
+    margin: 0px;
+}
+.header .menu{
+    background: #006064;
+    overflow: hidden;
+}
+.header .menu ul {
+    list-style: none;
+}
+.header .menu ul li {
+    display: inline-block;
+    margin: 0 17px 0 0;
+}
+.header .menu ul li a{
+    display: block;
+    float: left;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 19px 0px 19px;
+}
+.header .menu ul li a:hover{
+    text-decoration: underline;
+}
+h2{
+    font-family:  "Agency FB";
+    font-size: 24px;
+    color: #555555;
+    font-weight: normal;
+}
+p{
+    font-family:  "Agency FB";
+    font-size: 18px;
+    color: #777777;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+.destaque{
+    margin: 60px auto;
+    overflow: hidden;
+}
+.destaque .imagem{
+    background: #ffffff;
+    float: left;
+    width: 630px;
+    height: 190px;
+    margin: 0 30px 0 0;
+}
+.destaque .descricao{
+    float: left;
+    width: 260px;
+    height: 174px;
+    padding: 10px;
+    background: #ffffff;
+    position: relative;
+}
+.destaque .descricao h2{
+    margin-top: 0px ;
+}
+.destaque .descricao p{
+    font-size: 15.5px;
+    margin-top: -20px ;
+    text-align: justify;
+}
+.descricao a{
+    color: #0097a7;
+    border: solid 2px;
+    padding: 7px 40px;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+    text-transform: uppercase;
+}
+.descricao a:hover{
+    background: #0097a7;
+    color: #ffffff ;
+}
+.conteudo{
+    overflow: hidden;
+    margin: 60px 0;
+}
+.col-3{
+    margin: 0 30px 0 0;
+    float: left;
+    width: 300px;
+    height: 400px;
+    background: #ffffff;
+}
+.col-3 h2 {
+    margin: 20px 0 0 12px;
+}
+.col-3 p {
+    margin: 20px 12px 0 12px;
+}
+.row{
+    margin: 0 -30px 0 0;
+}
+.footer{
+    overflow: hidden;
+    background: #006064;
+}
+.footer p{
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
